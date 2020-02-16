@@ -6,7 +6,7 @@ jobs:
     steps:
       - run:
           name: "Set AWS region"
-          command: aws configure set region ap-northeast-1
+          command: aws configure set region us-west-2a
       - run:
           name: "Run AWS CodeDeploy"
           command: aws deploy create-deployment --application-name test_app --deployment-group-name MainDeployGroup --github-location repository="bossjerom2/python",commitId="$CIRCLE_SHA1"
