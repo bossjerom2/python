@@ -9,7 +9,7 @@ jobs:
           command: aws configure set region us-west-2a
       - run:
           name: "Run AWS CodeDeploy"
-          command: aws deploy create-deployment --application-name test_app --deployment-group-name MainDeployGroup --github-location repository="bossjerom2/python",commitId="$CIRCLE_SHA1"
+          command: aws deploy create-deployment --application-name test_app --deployment-group-name MainDeployGroup --github-location repository="bossjerom2/python",commitId="b56266d53a298694cfb050d1d455994d48b17fc7"
 workflows:
   version: 2
   build_deploy:
