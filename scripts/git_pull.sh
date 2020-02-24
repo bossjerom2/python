@@ -1,4 +1,6 @@
 #!/bin/sh
 #v1
-cd ../
-git pull
+cd ..
+echo hello >> test.txt
+#cd ../
+#git pull
