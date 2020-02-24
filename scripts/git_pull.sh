@@ -1,5 +1,5 @@
 #!/bin/sh
 #v1
-echo hello >> ./test.txt
+echo hello >> /home/ec2-user/python/test2.txt
 #cd ../
 #git pull
