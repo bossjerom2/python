@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: ./scripts/git_pull.sh
-    destination: /home/ec2-user/python/scripts
+  - source: ./scripts/
+    destination: /home/ec2-user/scripts
 
